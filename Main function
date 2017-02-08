@@ -1,0 +1,24 @@
+rocket r;
+rock s;
+
+void setup(){
+  size(1000,800);
+  r= new rocket();
+  s= new rock();
+  background(255);
+  frameRate(1000);
+}
+
+void draw(){
+  r.P1();
+  r.ascend();
+  r.top();
+  r.P2();
+  r.rock();
+  r.collision();
+  
+}
+void collision(){
+ 
+  
+}
