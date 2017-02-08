@@ -1,0 +1,11 @@
+class stars
+{
+  stars(){
+    
+  }
+  void show(){
+    fill(255);
+    ellipse(random(width), random(height),15,15);
+  }
+  
+}
