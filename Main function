@@ -1,12 +1,12 @@
 rocket r;
-rock s;
+stars s;
 
 void setup(){
   size(1000,800);
   r= new rocket();
-  s= new rock();
-  background(255);
-  frameRate(1000);
+  s= new stars();
+  background(0);
+  frameRate(60);
 }
 
 void draw(){
@@ -16,5 +16,8 @@ void draw(){
   r.P2();
   r.rock();
   r.collision();
+  s.show();
+  fill(255);
+  ellipse(1000,0,500,500);
   
 }
